@@ -66,7 +66,7 @@ h1 {
 .invite-text h2 {
     font-family: 'Great Vibes', cursive;
     font-size: 1.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-weight: 400;
 }
 
@@ -79,10 +79,16 @@ h1 {
 /* SPECIFICKY DATUM */
 .invite-text .date {
     font-weight: 700; /* Tučné písmo pro datum */
-    font-size: 2.5rem; /* Větší písmo jen pro datum */
+    font-size: 2.2rem; /* Větší písmo jen pro datum */
     display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-bottom: 7px;
+}
+
+/* Úprava samotného odpočtu v srdíčku */
+#countdown {
+    gap: 8px !important; /* Zmenšíme mezery mezi políčky, aby se to lépe vešlo do špičky srdce */
+    margin-top: 0 !important;
 }
 
 .heart-wrapper {
