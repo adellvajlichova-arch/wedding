@@ -170,7 +170,7 @@ h1 {
     justify-content: center;
     gap: 15px;
     width: fit-content;
-    margin: 30px auto;
+    margin: 5px auto 15px auto;
     /* ZRUŠÍME OHRANIČENÍ A STÍN KOLEM DOKOLA */
     box-shadow: none !important;
     border-radius: 0;
@@ -183,7 +183,7 @@ h1 {
 /* Styl pro texty (iniciály a datum) */
 .header-item {
     font-family: 'Great Vibes', cursive;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000;
@@ -191,7 +191,7 @@ h1 {
 }
 
 .info-heart-icon {
-    width: 100px; /* Velikost srdíčka, můžeš upravit podle sebe */
+    width: 60px; /* Velikost srdíčka, můžeš upravit podle sebe */
     height: auto;
     margin-bottom: 0 !important; /* Zrušíme spodní okraj, teď je v řadě */
     display: inline-block;
